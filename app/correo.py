@@ -1,6 +1,3 @@
 class Correo:
-    def verificar_correo(self, correo):
-        print(f"Enviando correo de verificación a {correo}")
-
-    def enviar_correo(self, para, asunto):
-        print(f"Enviando correo a {para} con asunto: {asunto}")
+    def enviar_notificacion(self, persona, mensaje):
+        print(f"Enviando correo a {persona.correo}: {mensaje}")
